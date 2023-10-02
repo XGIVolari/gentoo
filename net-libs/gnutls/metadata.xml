@@ -12,6 +12,9 @@
 			Build libgnutls-dane, implementing DNS-based Authentication of
 			Named Entities. Requires <pkg>net-dns/unbound</pkg>
 		</flag>
+		<flag name="ktls">
+			Enable support for Kernel implementation of TLS (kTLS)
+		</flag>
 		<flag name="openssl">
 			Build openssl compatibility libraries
 		</flag>
